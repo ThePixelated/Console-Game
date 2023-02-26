@@ -1,22 +1,20 @@
-#include <iostream>
+#include <conio.h>
 #include "Terrain.cpp"
 
 //std::vector<std::vector<char>> map(int width, int height, int type);
 //void print_map(std::vector<int> arr);
-
-void oceans(std::vector<std::vector<char>> arr) {
-	
-	arr[0][0] = '+';
-
-}
+//void ocean_map(std::vector<std::vector<char>>& arr);
 
 int main() {
-	std::vector<std::vector<char>> map_grid = map(80, 20, 177);
-	std::cout << "test";
+	std::vector<std::vector<char>> map_grid = f_load_map(80, 20);
 
-	oceans(map_grid);
+	//print_map(map_grid);
+	//ocean_map(map_grid);
+	print_map(map_grid);
 
-	std::cout << map_grid[0][0];
+	//std::cout << "test";
+
+	//std::cout << map_grid[0][0];
 
 	//int test[2][3] = {{1,2,3}, {4,5,6}};
 	//int* p_test = &test[0][0];
@@ -29,6 +27,8 @@ int main() {
 	//}
 
 	//std::cout << char(243);
+
+	_getch();
 
 	return 0;
 }
