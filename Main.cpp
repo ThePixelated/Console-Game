@@ -6,11 +6,49 @@
 //void ocean_map(std::vector<std::vector<char>>& arr);
 
 int main() {
-	std::vector<std::vector<char>> map_grid = f_load_map(80, 20);
+	//std::vector<std::string> text_encoder;
+	//std::vector<std::string> text_decoder;
+	//std::string text_mp;
+
+	std::map<char, char> mp_encode = {
+		{45, 'A'},
+		{46, 'B'},
+		{95, 'C'},
+		{176, 'D'},
+		{124, 'E'},
+		{223, 'F'},
+		{218, 'G'},
+		{217, 'H'},
+		{192, 'I'}
+	};
+
+	std::map<char, char> mp_decode = {
+		{'A', 45},
+		{'B', 46},
+		{'C', 95},
+		{'D', 176},
+		{'E', 124},
+		{'F', 223},
+		{'G', 218},
+		{'H', 217},
+		{'I', 192}
+	};
+
+	/*text_encoder = encoder(mp_encode);
+	std::cout << std::endl;
+
+	save_map(text_encoder);*/
+
+	print_map(load_map(80, 20, mp_decode));
+
+
+	//std::vector<std::vector<char>> map_grid1 = f_load_map(80, 20);
+	//std::vector<std::vector<char>> map_grid2 = generate_map(80, 20, 176);
 
 	//print_map(map_grid);
 	//ocean_map(map_grid);
-	print_map(map_grid);
+	//print_map(map_grid1);
+	//print_map(map_grid2);
 
 	//std::cout << "test";
 
