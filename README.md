@@ -11,6 +11,17 @@ Therefore, I want to say thank you for tuning in and reading it until the end.
 
 ## Update Log
 #### + Update devlog (24/2/2023) :
+man I'm tired ahaha, finally it's working, there is a lot of happening in the past few days, the save system and load system for the map are now fixed, before it was a disaster. Have been adding some functionality too, it would be amazing if the player can make their own map, so in the next update (next by mean is 2 months later), I will try add this map maker mode, where the player can make their own world and can customize how big or small the world is going to be. in conclusion:
++ Updating current map
++ Adding save system
++ Fixing up the load map system
++ Adding a few function
++ New save format
++ Bug fixes
++ Catalogue for terrain
++ More stable program
+
+#### + Update devlog (27/2/2023) :
 I want to keep an update about the project, I've found a new way or solution of how to game itself function, so there is going to be a big change for the logic, also in this update i want to give a hint of what i will add in the next in game update, this is just a update devlog, there will be a change to all of these. So here you are the list of things that i want to add : 
 
 1. Character
